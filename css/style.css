@@ -1,0 +1,98 @@
+* {
+    /*hace respetar la altura y ancho de todos los elementos o clases*/
+    box-sizing: border-box;
+}
+
+/*Cuerpo de la cancha*/
+.sportsField {
+    background-color: #28a128; /*Aplicamos color a nuestro bloque*/
+    width: 1200px; /*determinamos una ancho*/
+    height: 600px; /*determinamos una altura*/   
+    margin-left: auto; /*nos posicionamos en el centro del navegador*/
+    margin-right: auto; /**nos posicionamos en el centro del navegador*/
+    position: static; /*Usamos posicion static para mantener el cuadro de flujo*/
+}
+
+/*Posicionamiento*/
+.rectangle {
+    width: 1180px; /*determinamos una ancho*/
+    height: 555px; /*determinamos una altura*/
+    border: 5px solid white; /*Le asignamos un border solido*/
+    position: absolute; /*Le asignamos position absolute: para poder definir su posicion estableciendo valores*/
+    top: 30px; /*Establecemos valor top (parte superior)*/
+    left: 210px;  /*Establecemos valor left (parte izquierda)*/
+}
+
+.circle {
+    width: 200px; /*determinamos una ancho*/
+    height: 200px; /*determinamos una altura*/ 
+    -moz-border-radius: 50%; /*Utilizamos etiquetas propias del navegador*/
+    -webkit-border-radius: 50%; 
+    border: 5px solid white;  /*Le asignamos un border solido*/
+    border-radius: 50%; /*Le da forma al circulo*/
+    background: #28a128;  /*Aplicamos color a nuestro circulo*/
+    position: absolute; /*Le asignamos position absolute: para poder definir su posicion estableciendo valores*/
+    top: 220px; /*Establecemos valor top (parte superior)*/
+    left: 700px;  /*Establecemos valor left (parte izquierda)*/
+}
+
+/*Primer arco*/
+.firstbow{
+    width: 120px; /*determinamos una ancho del 1er arco*/
+    height: 200px; /*determinamos una altura del 1er arco*/ 
+    border: 5px solid white; /*Le asignamos un border solido*/
+    position: absolute; /*Le asignamos position absolute: para poder definir su posicion estableciendo valores*/
+    top: 220px; /*Establecemos valor top (parte superior)*/
+    left: 210px; /*Establecemos valor left (parte izquierda)*/
+}
+
+/*Segundo arco*/
+.secondBow{
+    width: 120px; /*determinamos una ancho del 2er arco*/
+    height: 200px; /*determinamos una altura del 2er arco*/ 
+    border: 5px solid white; /*Le asignamos un border solido*/
+    position: absolute; /*Le asignamos position absolute: para poder definir su posicion estableciendo valores*/
+    top: 220px; /*Establecemos valor top (parte superior)*/
+    right: 211px;  /*Establecemos valor right (parte derecha)*/
+}
+
+/*primer balon*/
+.firstBall {
+    width: 30px; /*determinamos una ancho del 1er balon*/
+    height: 30px; /*determinamos una altura del 1er balon*/ 
+    -moz-border-radius: 50%; 
+    -webkit-border-radius: 50%;
+    border-radius: 50%; /*Le asignamos un border solido*/
+    background: white; /*Le asignamos un color al balon 1*/
+    position: absolute; /*Le asignamos position absolute: para poder definir su posicion estableciendo valores*/
+    top: 225px; /*Establecemos valor top (parte superior)*/
+    left: 305px; /*Establecemos valor left (parte izquierda)*/
+
+}
+
+/*segundo balon*/
+.secodBall{
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 87px;
+    left: 790px;
+}
+
+/*tercer balon*/
+.thirdBall {
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: 370px;
+    right: 340px;
+}
+
